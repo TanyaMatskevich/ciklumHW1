@@ -1,0 +1,635 @@
+*********
+lecture25
+*********
+19
+---
+10
+---
+10
+100
+200
+45
+1000
+----
+10
+100
+200
+1000
+---
+10
+200
+45
+1000
+
+
+*********
+lecture26
+*********
+Lion
+cat
+Dog
+Bird
+Lion
+cat
+Dog
+Bird
+---
+com.ciklum.matskevich.java_SE.lecture26.Vehicle@45c8e616
+com.ciklum.matskevich.java_SE.lecture26.Vehicle@4cdbe50f
+com.ciklum.matskevich.java_SE.lecture26.Vehicle@66d33a
+---
+Honda
+accord
+12000
+Toyota
+Comery
+12000
+Jeep
+Wrangler
+25000
+---
+Vehicle{make='Honda', modle='accord', price=12000, fourWDrive=false}
+Vehicle{make='Toyota', modle='Comery', price=12000, fourWDrive=false}
+Vehicle{make='Jeep', modle='Wrangler', price=25000, fourWDrive=true}
+
+*********
+lecture27
+*********
+67
+43
+12
+15
+---
+Random
+Animal
+People
+---
+Random
+Animal
+People
+Zoo
+Car
+---
+Animal{name='Cat', age=8}
+Animal{name='Kangaroo', age=24}
+Animal{name='Bird', age=3}
+Animal{name='Dog', age=12}
+Animal{name='Dog', age=12}
+---
+false
+---
+true
+---
+true
+Animal{name='Cat', age=8}
+Animal{name='Kangaroo', age=24}
+Animal{name='Bird', age=3}
+Animal{name='Dog', age=12}
+Animal{name='Dog', age=12}
+---
+true
+1170794006
+2096171631
+---
+true
+2136625
+2136625
+---
+Animal{name='Dog', age=12}
+Animal{name='Kangaroo', age=24}
+Animal{name='Bird', age=3}
+Animal{name='Cat', age=8}
+
+
+*********
+lecture28
+*********
+[12, 43, 15, 67, 43, 10]
+---
+[12, 43, 15, 67, 43]
+---
+[12, 43, 43]
+---
+[]
+---
+true
+---
+false
+---
+false
+---
+true
+---
+[15, 67, 10, 10, 10, 10]
+---
+[10, 12, 15, 43, 67]
+---
+[Cloths, Computer, Random, Tooth Brush]
+---
+[com.ciklum.matskevich.java_SE.lecture28.Employee@7cf10a6f, com.ciklum.matskevich.java_SE.lecture28.Employee@4cdbe50f, com.ciklum.matskevich.java_SE.lecture28.Employee@45c8e616, com.ciklum.matskevich.java_SE.lecture28.Employee@66d33a]
+---
+[Employee{name='Angel', salary=2000, department='Maint'}, Employee{name='Paul', salary=3000, department='Admin'}, Employee{name='Mike', salary=3500, department='Accounting'}, Employee{name='Peter', salary=4000, department='IT'}]
+---
+[Employee{name='Peter', salary=4000, department='IT'}, Employee{name='Mike', salary=3500, department='Accounting'}, Employee{name='Paul', salary=3000, department='Admin'}, Employee{name='Angel', salary=2000, department='Maint'}]
+
+
+*********
+lecture29
+*********
+Brilliant
+Joy
+Confidence
+Brave
+---
+Brave
+Brilliant
+Joy
+Confidence
+---
+ready to face and endure danger or pain; showing courage
+exceptionally clever or talented
+a feeling of great pleasure and happiness
+the state of feeling certain about the truth of something
+---
+exceptionally clever or talented
+a feeling of great pleasure and happiness
+the state of feeling certain about the truth of something
+ready to face and endure danger or pain; showing courage
+---
+Brilliant
+exceptionally clever or talented
+Joy
+a feeling of great pleasure and happiness
+Confidence
+the state of feeling certain about the truth of something
+Brave
+ready to face and endure danger or pain; showing courage
+---
+Brave
+ready to face and endure danger or pain; showing courage
+Brilliant
+exceptionally clever or talented
+Confidence
+the state of feeling certain about the truth of something
+Joy
+a feeling of great pleasure and happiness
+---
+Brave
+ready to face and endure danger or pain; showing courage
+Brilliant
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Confidence
+the state of feeling certain about the truth of something
+Joy
+a feeling of great pleasure and happiness
+---
+
+
+*********
+lecture35
+*********
+hello there..
+number: 0
+number: 1
+number: 2
+.......
+number: 999
+---
+hello there..
+Exception in thread "main" java.lang.IllegalThreadStateException
+	at java.base/java.lang.Thread.start(Thread.java:789)
+	at com.ciklum.matskevich.java_SE.lecture35_36.Application.main(Application.java:12)
+number: 0
+number: 1
+number: 2
+....
+---
+hello there..
+number: 0
+number: 1
+number: 2
+number: 3
+number: 4
+number: 5
+number: 6
+number: 7
+number: 0
+number: 1
+number: 8
+number: 2
+number: 3
+number: 4
+---
+
+*********
+lecture36
+*********
+Starting Thread 1
+Starting Thread 2
+number: 0
+number: 0
+number: 1
+number: 1
+number: 2
+number: 2
+....
+---
+Starting Thread 1
+Starting Thread 2
+number: 0 - Thread-1
+number: 0 - Thread-0
+number: 1 - Thread-1
+number: 1 - Thread-0
+number: 2 - Thread-1
+...
+---
+Starting Thread 1
+Starting Thread 2
+number: 0 - Thread-B
+number: 0 - Thread-A
+number: 1 - Thread-B
+number: 1 - Thread-A
+number: 2 - Thread-B
+...
+---
+Starting Thread 1
+number: 0 - Thread-A
+number: 1 - Thread-A
+number: 2 - Thread-A
+number: 3 - Thread-A
+...
+---
+Starting Thread 1
+Starting Thread 2
+number: 0 - Thread-A
+number: 0 - Thread-B
+number: 1 - Thread-A
+number: 1 - Thread-B
+...
+---
+Starting Thread 1
+Starting Thread 2
+number: 0 - Thread-1
+number: 0 - Thread-0
+number: 1 - Thread-1
+number: 1 - Thread-0
+number: 2 - Thread-1
+...
+---
+
+
+
+*********
+lecture37
+*********
+1
+2
+3
+4
+...
+100
+---
+Thread-1 got value: 2
+Thread-0 got value: 1
+Thread-0 got value: 4
+Thread-1 got value: 3
+Thread-0 got value: 5
+Thread-1 got value: 6
+...
+---
+Thread-1 got value: 2
+Thread-0 got value: 1
+Thread-1 got value: 4
+Thread-0 got value: 3
+Thread-1 got value: 5
+...
+---
+Thread-0 got value: 1
+Thread-1 got value: 2
+Thread-0 got value: 4
+Thread-1 got value: 3
+Thread-0 got value: 5
+...
+
+
+*********
+lecture38
+*********
+...
+ADDED: id:Product{id=166, name='test_product_166'}
+ADDED: id:Product{id=167, name='test_product_167'}
+PRINTING THE SOLD: Product{id=0, name='test_product_0'}
+ADDED: id:Product{id=168, name='test_product_168'}
+Exception in thread "Thread-1" java.util.ConcurrentModificationException
+	at java.base/java.util.ArrayList$Itr.checkForComodification(ArrayList.java:1043)
+	at java.base/java.util.ArrayList$Itr.next(ArrayList.java:997)
+	at com.ciklum.matskevich.java_SE.lecture38.InventoryManager.displaySoldProducts(InventoryManager.java:25)
+	at com.ciklum.matskevich.java_SE.lecture38.Application$2.run(Application.java:18)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+ADDED: id:Product{id=169, name='test_product_169'}
+ADDED: id:Product{id=170, name='test_product_170'}
+...
+---
+ADDED: id:Product{id=997, name='test_product_997'}
+ADDED: id:Product{id=998, name='test_product_998'}
+ADDED: id:Product{id=999, name='test_product_999'}
+PRINTING THE SOLD: Product{id=0, name='test_product_0'}
+PRINTING THE SOLD: Product{id=1, name='test_product_1'}
+PRINTING THE SOLD: Product{id=2, name='test_product_2'}
+---
+ADDED: id:Product{id=185, name='test_product_185'}
+ADDED: id:Product{id=186, name='test_product_186'}
+ADDED: id:Product{id=187, name='test_product_187'}
+PRINTING THE SOLD: Product{id=0, name='test_product_0'}
+ADDED: id:Product{id=188, name='test_product_188'}
+PRINTING THE SOLD: Product{id=1, name='test_product_1'}
+ADDED: id:Product{id=189, name='test_product_189'}
+PRINTING THE SOLD: Product{id=2, name='test_product_2'}
+ADDED: id:Product{id=190, name='test_product_190'}
+---
+
+
+
+*********
+lecture39
+*********
+New Question: 0
+New Question: 1
+New Question: 2
+New Question: 3
+New Question: 4
+Questions have piled up.. wait for answers
+ANSWERED Question: 0
+ANSWERED Question: 1
+ANSWERED Question: 2
+ANSWERED Question: 3
+ANSWERED Question: 4
+No Questions to Answer... Waiting for producer to get questions
+New Question: 5
+New Question: 6
+...
+
+
+
+*********
+lecture40
+*********
+Got new question: 0
+ANSWERED QUESTION: 0
+---
+Got new question: 270765
+ANSWERED QUESTION: 270759
+ANSWERED QUESTION: 270760
+Got new question: 270766
+Got new question: 270767
+ANSWERED QUESTION: 270761
+ANSWERED QUESTION: 270762
+Got new question: 270768
+Got new question: 270769
+ANSWERED QUESTION: 270763
+...
+---
+Got new question: 0
+Got new question: 1
+Got new question: 2
+Got new question: 3
+Got new question: 4
+Got new question: 5
+Got new question: 6
+ANSWERED QUESTION: 0
+ANSWERED QUESTION: 1
+Got new question: 7
+ANSWERED QUESTION: 2
+Got new question: 8
+...
+---
+
+
+
+*********
+lecture41
+*********
+pool-1-thread-1[RECEIVED] Message = 2
+pool-1-thread-2[RECEIVED] Message = 3
+pool-1-thread-2(DONE) Message = 3
+pool-1-thread-2[RECEIVED] Message = 4
+pool-1-thread-1(DONE) Message = 2
+pool-1-thread-2(DONE) Message = 4
+...
+---
+submitted all tasks...
+pool-1-thread-2[RECEIVED] Message = 3
+pool-1-thread-1[RECEIVED] Message = 2
+pool-1-thread-1(DONE) Message = 2
+pool-1-thread-2(DONE) Message = 3
+pool-1-thread-2[RECEIVED] Message = 4
+pool-1-thread-1[RECEIVED] Message = 4
+pool-1-thread-2(DONE) Message = 4
+pool-1-thread-1(DONE) Message = 4
+---
+pool-1-thread-1[RECEIVED] Message = 2
+pool-1-thread-2[RECEIVED] Message = 3
+pool-1-thread-1(DONE) Message = 2
+pool-1-thread-1[RECEIVED] Message = 4
+pool-1-thread-2(DONE) Message = 3
+pool-1-thread-2[RECEIVED] Message = 4
+pool-1-thread-1(DONE) Message = 4
+pool-1-thread-2(DONE) Message = 4
+submitted all tasks...
+---
+pool-1-thread-2[RECEIVED] Message = 3
+pool-1-thread-1[RECEIVED] Message = 2
+Unable to process message 2
+pool-1-thread-1(DONE) Message = 2
+Unable to process message 3
+pool-1-thread-2(DONE) Message = 3
+submitted all tasks...
+---
+pool-1-thread-1[RECEIVED] Message = 2
+pool-1-thread-2[RECEIVED] Message = 3
+submitted all tasks...
+pool-1-thread-1(DONE) Message = 2
+pool-1-thread-1[RECEIVED] Message = 4
+pool-1-thread-2(DONE) Message = 3
+pool-1-thread-2[RECEIVED] Message = 4
+pool-1-thread-1(DONE) Message = 4
+pool-1-thread-2(DONE) Message = 4
+---
+
+
+
+*********
+lecture47
+*********
+Custom object walking...
+---
+Custom object walking...
+Custom object walking...
+the object tripped...
+---
+
+
+*********
+lecture48
+*********
+Custom object walking...
+Custom object walking...
+the object tripped...
+10
+---
+Custom object walking...
+Custom object walking...
+the object tripped...
+hello there
+10
+---
+Custom object walking...
+Custom object walking...
+the object tripped...
+hello there
+10
+2
+---
+Custom object walking...
+Custom object walking...
+the object tripped...
+hello there
+10
+2
+elciheV
+---
+Custom object walking...
+Custom object walking...
+the object tripped...
+hello there
+10
+2
+elciheV
+3628800
+---
+
+
+*********
+lecture49
+*********
+Printing cars between price 18000 and 22000
+Car{make='Mitsubishi', model='Lancer', color='White', price=20000}
+Printing cars that are blue
+Car{make='Honda', model='Civic', color='Blue', price=17700}
+Car{make='Toyota', model='Camry', color='Blue', price=24000}
+---
+Printing cars between price 18000 and 22000
+Car{make='Mitsubishi', model='Lancer', color='White', price=20000}
+Print blue cars
+Car{make='Honda', model='Civic', color='Blue', price=17700}
+Car{make='Toyota', model='Camry', color='Blue', price=24000}
+---
+Printing cars between price 18000 and 22000
+Car{make='Mitsubishi', model='Lancer', color='White', price=20000}
+Print blue cars
+Car{make='Honda', model='Civic', color='Blue', price=17700}
+Car{make='Toyota', model='Camry', color='Blue', price=24000}
+---
+ Price = 22300 color = Red
+
+
+*********
+lecture50
+*********
+123456789
+---
+6789
+---
+10
+---
+Africa
+---
+tent, toothpaste, toy,
+---
+44.0
+---
+car, computer,
+---
+Bitcoin, Computer Application, Dry Cleaner, Education, Health Insurance, Keyboard, Powerade, Samantha, White Board,
+---
+Samantha, Health Insurance,
+---
+3 good rows.
+---
+APPL 145 422
+AMZN 690 849
+---
+
+
+*********
+lecture115
+*********
+2021-10-31
+10:46:05.081554
+2021-10-31T10:46:05.081799
+---
+2017-01-01
+10:30
+2017-01-01T10:30
+---
+Sun Oct 31 10:54:23 MSK 2021
+Thu Jan 01 10:54:24 MSK 2015
+
+
+
+**********
+lecture116
+**********
+2030-01-10
+2030-03-15
+10:30
+12:50
+2030-03-15T12:50
+2030-03-24T02:50
+2010-04-01
+
+
+**********
+lecture117
+**********
+Need to clean the cage on date= 2017-01-01
+Need to clean the cage on date= 2017-02-01
+Need to clean the cage on date= 2017-03-01
+Need to clean the cage on date= 2017-04-01
+---
+Need to clean the cage on date= 2017-01-01
+Need to clean the cage on date= 2017-02-01
+Need to clean the cage on date= 2017-03-01
+Need to clean the cage on date= 2017-04-01
+2017-01-15
+2021-11-14T11:12:14.083924
+P1Y1M
+---
+
+
+
+
+**********
+lecture118
+**********
+2010-04-15
+2010-04-15T11:22:33
+11:22:33
+4/15/10
+Apr 15, 2010
+4 15, 2010, 11:22
+11:15
+11:22
+11:22
+
+
+
+**********
+lecture119
+**********
+2010-02-15
+11:33
+02 15 2010
+2010-02-15
+05 05 2010
+10 10 2010
